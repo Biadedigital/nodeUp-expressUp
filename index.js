@@ -12,9 +12,10 @@ const server = http.createServer((req, res) => {
   }
   res.end(
     `<p>Error Page</p>
-    <a href="/">Go back to HomePage</a>
-    <a href="/about">Go back to AboutPage</a>
-    <a href="/contact">Go back to ContactPage</a>
+    <span>Go back to: </span>
+    <a href="/">HomePage</a>
+    <a href="/about">AboutPage</a>
+    <a href="/contact">ContactPage</a>
     `
   )
 })
